@@ -42,8 +42,9 @@ Windows PowerShell(Most preferred) or Mac OS Terminal:
 
     $ python3 main.py #(tkinter should be included in python 3 core)
 
-    #if above is missing ttk run:
-    $ sudo apt install python3-tk #(req library)
+    #if above is missing tk for windows run:
+    $ sudo apt install python3-tk #(req library for window)
+
 Linux(Least preferred): 
 
 https://sourceforge.net/projects/xming/?source=typ_redirect 
