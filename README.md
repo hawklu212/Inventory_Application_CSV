@@ -94,6 +94,8 @@ ex.
 ![img_7.png](img_7.png),![img_9.png](img_9.png),![img_8.png](img_8.png)
 
 **Some Future Additions:**
+
+**Flexibility and Scalability:**
 In the future, instead of static csv, I would likely integrate a database that contains inventory items.
 These items can be represented as json files initially and converted to a csv format. Would likely need to include a 
 pathway to credentials for making api queries to the database.
@@ -101,3 +103,7 @@ pathway to credentials for making api queries to the database.
 For the sake of running across different operating systems or environments, I may containerize these functions with
 docker and run as a docker container, this would require more installations but would ensure required packages are installed
 in a more organized fashion.
+
+The existing product list presently is quite small, however, if this got bigger, the product display list would not be able to show them all on 1 screen, as such,
+I will likely configure a scrollbar in the future, and also likely add a search option for specific name/quantity/price products.
+
