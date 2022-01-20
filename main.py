@@ -117,6 +117,9 @@ class Inventory:
                                bg="white", height=20, width =40,textvariable=self.listVar)
         self.leftname.grid(row=0,column=0, sticky =W)
 
+        # self.scrollbar = ttk.Scrollbar(root,orient='vertical',command=self.listVar.yview)
+        #
+        # self.leftname['yscrollcommand'] = self.scrollbar.set
 
         #=============================================#
 
