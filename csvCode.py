@@ -32,7 +32,7 @@ def createcsventry(filetxt,category,product,name,price,quantity):
                 if name==row[2]:
                     return "Product is a duplicate, not Created"
 
-    data = [category,product,name,price,quantity]
+    data = [category,product,name,'$'+price,quantity]
     file = open(filetxt, 'a',newline='', encoding='UTF8')
     writer = csv.writer(file)
     writer.writerow(data)
